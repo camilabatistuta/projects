@@ -1,0 +1,47 @@
+
+#boardTable{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+}
+
+.tableSquares{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    height: 375px;
+    width: 375px;
+    margin-left: auto;
+    margin-right: auto;
+    grid-gap: 5px;
+}
+
+.square{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 0.3px solid black;
+    background-color: rgb(126, 186, 254);;
+}
+
+.square:hover{
+    background-color: rgb(27, 88, 158);;
+}
+
+#restartButton{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 30px;
+    height: 40px;
+    width: 150px;
+    background-color: white;
+    color: black;
+    border-radius: 40px;
+    border: 1px solid #000000;
+    font-size: 18px;
+
+}
+
+#restartButton:hover{
+    background-color: black;
+    color: white;
+}
